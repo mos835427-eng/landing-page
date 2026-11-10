@@ -1,0 +1,162 @@
+
+.desktop{
+height: 200px;
+width: 100%;
+padding: 0; 
+margin: 0;
+}
+body{
+}
+.box-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;   
+
+
+}
+.box-1 img{
+width: 100px;
+margin-bottom: 50px;
+margin-top: -70px;
+}
+.box-1 span{
+    font-size: 40px;
+   color: hsl(200, 11%, 16%);
+
+}
+.box-1 .p-1{
+    color: hsl(201, 11%, 66%);
+      max-width: 500px;
+
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+
+    
+}
+
+.ios{
+    width: 200px;
+    height: 50px;
+  cursor: pointer;
+  border-radius: 40px;
+border: none;
+background-color: hsl(171, 66%, 44%);
+color: white;
+}
+.mac{
+    width: 200px;
+    height: 50px;
+  cursor: pointer;
+  border-radius: 40px;
+  border: none;
+  background-color: hsl(233, 100%, 69%);
+  color: white;
+
+
+}
+.ios:hover{
+    background-color: rgb(17, 63, 63);
+}
+.mac:hover{
+    background-color: rgb(18, 18, 73);
+}
+
+.box-1 .content{
+    margin-top: 100px;
+    text-align: center;
+}
+.box-1 .content h2{
+    color: rgba(0, 0, 0, 0.849);
+    font-size: 30px;
+}
+.box-1 .content p{
+    color: hsl(201, 11%, 66%);
+    max-width: 600px;
+} 
+.box-2{
+    margin-top: 50px;
+display: flex;
+gap: 80px;
+
+}
+.box-2 img{
+    width: 600px;
+}
+.box-2 .content{
+max-width: 300px;
+    
+}
+.box-2 .content p{
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 40px;
+}
+.box-3{
+margin-top: 50px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+}
+.box-3 .content-1{
+    margin-bottom: 50px;
+}
+.box-3 p{
+ color: hsl(201, 11%, 66%);
+}
+.box-4 {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+gap: 30px;
+}
+.box-4 p{
+    max-width: 300px;
+    color:  hsl(201, 11%, 66%);
+}
+.box-5 .img{
+    margin-top:50px; 
+    justify-content: space-evenly;
+    display: flex;
+   align-items: center;
+}
+.box-6{
+    margin-top: 50px;
+    text-align: center;
+}
+.box-6 p{
+    color:  hsl(201, 11%, 66%);
+}
+.btn-1{
+margin-top: 50px;
+}
+.box-7{
+margin-top: 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+    background-color: hsla(212, 10%, 33%, 0.644);
+  border-radius: 20px;
+
+}
+.img-c img{
+
+    width: 60px;
+
+}
+.box-7 .content{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+}
+a{
+    text-decoration: none;
+   color: hsl(203, 27%, 83%);
+}
